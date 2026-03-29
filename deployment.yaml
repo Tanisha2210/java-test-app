@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
         - name: java-test-app
-          image: dockerhub-username/java-test-app:latest
+          image: dockerhub-tanisha2210/java-test-app:latest
           imagePullPolicy: Always
           ports:
             - containerPort: 8080
